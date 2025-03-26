@@ -12,23 +12,27 @@
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* Stellt sicher, dass alles untereinander ist */
+  align-items: center;
+  gap: 1.5em;
+  /* Abstand zwischen den Elementen */
 }
 
 .title {
   font-size: 2rem;
   font-weight: bold;
   color: #333;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .text {
   color: #666;
-  margin-bottom: 1rem;
 }
 
 .image {
   border-radius: 8px;
-  margin-bottom: 1rem;
 }
 
 .button {
