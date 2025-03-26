@@ -7,7 +7,7 @@ export default function Home() {
       <div className={styles.container}>
         <h1 className={styles.title}>Willkommen auf meiner coolen Seite!</h1>
         <p className={styles.text}>Eine moderne Single Page Application mit Next.js und maßgeschneidertem CSS.</p>
-        <Image src="/cool-image.jpg" alt="Coole Grafik" width={300} height={200} className={styles.image} />
+        <Image src="https://wallpaperaccess.com/full/4627932.jpg" alt="Coole Grafik" width={300} height={200} className={styles.image} />
         <button className={styles.button}>Drück mich!</button>
       </div>
     </div>
